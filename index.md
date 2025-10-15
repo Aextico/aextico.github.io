@@ -1,8 +1,3 @@
----
-layout: home
-title: "Moje Writeupy CTF"
----
-
 # Moje Writeupy CTF
 
 Witaj! Tutaj znajdziesz wszystkie moje writeupy z wyzwań CTF.  
