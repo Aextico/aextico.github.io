@@ -1,6 +1,7 @@
-# Moje Writeupy CTF
-
-Witaj! Tutaj znajdziesz wszystkie moje writeupy z wyzwań CTF.  
+---
+layout: home
+title: "Blog"
+---
 
 {% for post in site.posts %}
 <article style="margin-bottom: 2em;">
@@ -8,7 +9,7 @@ Witaj! Tutaj znajdziesz wszystkie moje writeupy z wyzwań CTF.
   <small>{{ post.date | date: "%d %B %Y" }}</small>
   <p>
     {{ post.excerpt | strip_html | truncate: 250 }}
-    <a href="{{ post.url }}">Czytaj dalej →</a>
+    <a href="{{ post.url }}">Read more... →</a>
   </p>
 </article>
 {% endfor %}
